@@ -136,25 +136,51 @@
  *         결과
  *                     &&     ||
  *     -----------------------------
- *     true   true    true    true
+ *     true  true     true    true
  *     ----------------------------- 
- *     true   false   false   true
+ *     true  false    false   true
  *     -----------------------------
- *     false  true    false   true
+ *     false true     false   true
  *     -----------------------------
- *     false  false   false   false
+ *     false false    false   false
  *     -----------------------------
  *     && : 범위나 기간 포함       90부터 100까지 A   예약기간
  *                          score>=90 && score<=100
  *     || : 범위를 벗어난 경우
  *     --------------------
- *   = 대입연산자(=,+=,-=,*=,/=,%= ...)
+ *   = 대입연산자(=,+=,-=,    *=,/=,%= ...)
+ *               -------------------복합 대입 연산자
+ *     int a=10;
+ *         <----10을 a에 대입
+ *     int a=10;
+ *     int b=20;
+ *     int c=a+b;
+ *           ---
+ *         ---
+ *     
+ *     int a=10;
+ *     a++;  //한개 증가
+ *     
+ *     int a=10;
+ *     a+=10 //a=a+10  =>  a=20
+ *     
+ *     int a=100;
+ *     a+=20;
+ *     a=?
+ *     =>a=120 //a=a+20
+ *     
+ *     int a=100;
+ *     a-=10;
+ *     => a=a-10 =>90
+ *     
+ *     a++
+ *     a+=2
  */
 public class 자바연산자 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("3"+"0"+"0"+"0");
+		System.out.println(365*3);
 		System.out.println(Integer.toBinaryString(105)); //2진법으로 바꿔줌
 	}
 
