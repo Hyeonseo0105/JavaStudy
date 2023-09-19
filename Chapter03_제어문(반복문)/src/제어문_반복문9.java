@@ -28,7 +28,7 @@ public class 제어문_반복문9 {
 			if(user<1 || user>100)
 			{
 				System.out.println("잘못된 입력입니다.");
-				continue; //다시 처음으로(1~100입력해라)
+				continue; //다시 처음으로(1~100입력해라) false일때 다시 처음부터
 			}
 			count++;
 			//hint

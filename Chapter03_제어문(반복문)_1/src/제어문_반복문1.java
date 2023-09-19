@@ -51,7 +51,6 @@
  */
 import java.io.*;
 public class 제어문_반복문1 {
-
 	public static void main(String[] args) throws Exception{
 		// TODO Auto-generated method stub
 		/*String s="ABCDEFGHIJKLMNOP";
