@@ -58,10 +58,10 @@ public class 배열_1 {
 			
 			System.out.println("arr="+arr);
 			//System.out.println(); = new type();
-			arr[0]=100;
-			arr[1]=200;
-			System.out.println("arr=>"+arr2[0]);
-			System.out.println("arr2=>"+arr2[1]);
+//			arr[0]=100;
+//			arr[1]=200;
+//			System.out.println("arr=>"+arr2[0]);
+//			System.out.println("arr2=>"+arr2[1]);
 			
 	}
 
