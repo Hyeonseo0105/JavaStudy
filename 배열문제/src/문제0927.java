@@ -78,6 +78,18 @@ public class 문제0927 {
 		
 		
 		//5번
+		/*최대값의 인덱스
+		int index=0;
+		for(int i=0;i<num.length;i++)
+		{
+			if(max==num[i])
+			{
+				index=i;
+				break;
+			}
+		}
+		System.out.println("최대값의 인덱스:"+index);
+		*/
 //		int[] num=new int[10];
 //		for(int i=0;i<num.length;i++)
 //		{
@@ -92,6 +104,7 @@ public class 문제0927 {
 //				max=num[i];
 //		}
 //		System.out.println("최대값:"+max);
+
 		
 		
 		//6번
@@ -103,6 +116,13 @@ public class 문제0927 {
 //		System.out.println(Arrays.toString(num));
 //		int sum=0;
 //		double avg=0;
+		/*
+		 * for(int i:arr)
+		 * {
+		 * 		sum+=i;
+		 * }
+		 * system.out.printf("평균:%.2f\n",sum/10.0
+		 */
 //		for(int i=0;i<num.length;i++)
 //		{
 //			sum+=num[i];
