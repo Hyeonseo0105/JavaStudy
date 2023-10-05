@@ -178,6 +178,10 @@ public class 문제0927 {
 		{
 			arr[i]=c++;
 		}
+		for(char i:arr)
+		{
+			System.out.println(i);
+		}
 		*/
 //		char[] a=new char[26];
 //		for(int i=0;i<a.length;i++)
@@ -191,6 +195,17 @@ public class 문제0927 {
 		
 		
 		//10번
+		/*char[] arr=new char[26];
+		char c='A';
+		for(int i=0;i<arr.length;i++)
+		{
+			arr[i]=c++;
+		}
+		for(int i=arr.length-1;i>=0;i--)
+		{
+			System.out.println(arr[i]);
+		}
+		*/
 //		char[] a= {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
 //		for(int i=0;i<a.length-1;i++)
 //		{
@@ -216,6 +231,12 @@ public class 문제0927 {
 //			num[i]=scan.nextInt();
 //			
 //		}
+		/*for(int i:arr)
+		  {
+		  		if(i%3==0)
+		  			System.out.print(i+" ");
+		  }
+		 */
 //		for(int i=0;i<num.length;i++)
 //		{
 //			if(num[i]%3==0)
