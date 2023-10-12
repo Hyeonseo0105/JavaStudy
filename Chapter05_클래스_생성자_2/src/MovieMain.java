@@ -60,7 +60,7 @@ class MovieSystem{
 		}catch(Exception ex) {}
 	}
 	// 2. 목록 출력
-	void list()
+	void list()           //브라우저 지금 출력 void     웹이면 리터형쓰기
 	{
 		for(Movie m:movies)
 		{
