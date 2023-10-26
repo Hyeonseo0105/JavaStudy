@@ -100,7 +100,7 @@ package com.sist.main;
  *                     => 메소드 , 변수
  *       --------------------------------------------------
  *       상속            다중 상속                  단일 상속
- *                     implements               extends
+ *                     implements                extends
  *                     interface => interface
  *                               |
  *                            extends
